@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "qkl_minecraft",
+  "version": "${version}",
+  "name": "Quilt Kotlin Libraries: Minecraft",
+  "description": "QKL Wrappers and Libraries",
+  "contributors": [
+    {
+      "name": "QuiltMC: Quilt Kotlin Team"
+    }
+  ],
+  "contact": {
+    "homepage": "https://quiltmc.org",
+    "issues": "https://github.com/quiltmc/quilt-kotlin-libraries/issues",
+    "sources": "https://github.com/quiltmc/quilt-kotlin-libraries"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/qkl_minecraft/icon.png",
+  "depends": {
+    "id": "minecraft",
+    "versions": ">=${minecraft_version}"
+  },
+  "mixins": [
+    "qkl_minecraft.mixins.json"
+  ]
+}
